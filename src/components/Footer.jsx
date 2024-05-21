@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <footer className='footer'>
-       <span>International Money Transfers:</span><a to={"sendmoneytoindia"}>Send Money to India|</a>
+       <span>International Money Transfers:</span><Link to={"sendmoneytoindia"}>Send Money to India|</Link>
        <a href="">Send Money to Nigeria|</a><a href="">Send Money Poland |</a>
        <a href="">Send Money to Ghana|</a><a href="">Send money to Dubai|</a>
       <a href="">Send Money to the UK from India|</a><a href="">Send Money to Saudi Arabia|</a>
